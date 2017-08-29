@@ -4,10 +4,10 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const request = require('request')
 const apiai = require('apiai');
-const app2 = apiai("fbedf7da93074ba09858e05046bb4438");
+const app2 = apiai("");
 const app = express()
 const Spreadsheet = require('edit-google-spreadsheet')
-const token = "EAAaeLkQ7oSMBAMiZBlY49ycWDBijwhRgun2PHAU8oHAIchj4aDrBdJmODm2juBo9n8ZA8Gzf6kLoez9CO3WZBidV2zjpZCGzBvlAc4dIUJt40xGylxZBaLW9XD7waGyZCHn9ELkqmFk8UuoTfi5UZAodELLZCG49CdgYnrNBRbZBVdAZDZD"
+const token = ""
 
 const chunk_size = 10;
 let groups;
