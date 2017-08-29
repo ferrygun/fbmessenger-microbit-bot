@@ -214,11 +214,11 @@ function sendMsg1(data, sender, cb) {
 function getListofProject(sender){
 	Spreadsheet.load({
 		debug: false,
-		spreadsheetId: '1aVW2z4lpenn5FPUtcNvBf6nKAie3IG5sS5QocEqxcvI',
+		spreadsheetId: '',
 		//worksheetId: 'od6',
 		worksheetName: 'microbit',
 		oauth : {
-			email: 'my-project-1470745461917@appspot.gserviceaccount.com',
+			email: 'xxx@appspot.gserviceaccount.com',
 			keyFile: 'fd.pem'
 		}
 	},
