@@ -1,0 +1,22 @@
+{
+  "name": "AIBot",
+  "version": "0.0.0",
+  "description": "AI Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ferry Djaja",
+  "license": "ISC",
+  "dependencies": {
+    "apiai": "^3.0.3",
+    "express": "^4.14.0",
+    "body-parser": "^1.16.0",
+    "request": "^2.79.0",
+    "edit-google-spreadsheet": "^0.2.21",
+    "geolib": "^2.0.22",
+    "wait.for": "^0.6.6"
+  },
+  "devDependencies": {}
+}
